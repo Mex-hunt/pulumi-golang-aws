@@ -1,0 +1,7 @@
+name: project1
+runtime: go
+description: a basic aws go project
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-go
