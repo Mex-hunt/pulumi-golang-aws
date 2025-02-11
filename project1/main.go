@@ -3,11 +3,11 @@ package main
 import (
 	"crypto/rand"
 	"crypto/rsa"
+
+	"fmt"
 	"github.com/pulumi/pulumi-aws/sdk/v6/go/aws/ec2"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
-	// "crypto/x509"
-	// "encoding/pem"
-	"fmt"
+
 	"golang.org/x/crypto/ssh"
 )
 
